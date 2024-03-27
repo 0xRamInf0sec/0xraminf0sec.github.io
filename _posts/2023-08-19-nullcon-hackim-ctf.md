@@ -15,7 +15,7 @@ Description : HTTP requests and libraries are hard. Sometimes they do not behave
 
 On visiting the page , it shows with some instruction and cookies.
 
-![ctf01.png](assets/img/ctf01.png)
+![ctf01.png](/assets/img/ctf01.png)
 
 ```php
 role = request.cookies.get('role','guest')
@@ -46,7 +46,7 @@ Description : My colleague built a service which shows the contents of a zip fil
 
 The webpage shows with some instruction as make a zipfile as post request !!.
 
-![ctf02.png](assets/img/ctf02.png)
+![ctf02.png](/assets/img/ctf02.png)
 
 So, we have to send zip file to the server.They gave the actual backend code for the challege.
 
@@ -118,7 +118,7 @@ getdata = requests.post(URL, files=files)
 print(getdata.content)
 ```
 
-![ctf03.png](assets/img/ctf03.png)
+![ctf03.png](/assets/img/ctf03.png)
 
 We have a path to the uploaded zip file , on visiting to that path we can able to see the zip file with flag.txt@ 
 
